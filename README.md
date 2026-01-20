@@ -33,34 +33,6 @@ PRAD: 136 samples (17.0%)
 COAD:  78 samples (9.7%)
 ```
 
-## Project Structure
-
-```
-Cancer Type Classification from Gene Expression Data/
-â”‚
-â”œâ”€â”€ Cancer_Classification_Complete.ipynb   # Main Jupyter notebook
-â”œâ”€â”€ cancer_classification.py               # Python script version
-â”œâ”€â”€ README.md                              # This file
-â”‚
-â”œâ”€â”€ TCGA-PANCAN-HiSeq-801x20531/          # Dataset folder
-â”‚   â””â”€â”€ TCGA-PANCAN-HiSeq-801x20531/
-â”‚       â”œâ”€â”€ data.csv                       # Gene expression data
-â”‚       â””â”€â”€ labels.csv                     # Cancer type labels
-â”‚
-â””â”€â”€ [Visualization PNGs]                   # Generated plots
-    â”œâ”€â”€ 01_class_distribution.png
-    â”œâ”€â”€ 02_eda_visualizations.png
-    â”œâ”€â”€ 03_pca_variance.png
-    â”œâ”€â”€ 04_pca_visualization.png
-    â”œâ”€â”€ 05_pca_3d.png
-    â”œâ”€â”€ 06_model_comparison.png
-    â”œâ”€â”€ 07_confusion_matrices.png
-    â”œâ”€â”€ 08_roc_curves.png
-    â”œâ”€â”€ 09_overfitting_analysis.png
-    â”œâ”€â”€ 10_pca_feature_importance.png
-    â”œâ”€â”€ 11_gene_importance.png
-    â””â”€â”€ 12_executive_summary.png
-```
 
 ## Pipeline Steps
 
